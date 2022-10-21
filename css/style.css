@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1C9800;
+}
+
+/*--- NAVBAR ---*/
+
+
+
+.logo {
+    margin-right: 15px;
+    width: 110px;
+    height: 100px;
+}
+
+.container-fluid {
+    background-color: #1C9800;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #D1FF46;
+    font-size: 1.5rem;
+    border: #D1FF46 solid;
+    padding: 8px;
+}
+
+/*--- Index ---*/
+
+.titulo {
+    font-size: 6rem;
+    color: #D5FF57;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+}
+
+.subtituloIndex {
+    color: #D5FF57;
+    font-size: 2.5rem;
+    height: 100px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+
+.parrafoIndex {
+
+    height: 130px;
+    font-size: 1.6rem;
+    color: #D5FF57;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/*--- Producto ---*/
+
+.subtituloProducto {
+    color: #D5FF57;
+    font-size: 2.5rem;
+    height: 100px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+
+.productos {
+    height: 80vh;
+}
+
+.parrafoMedallon {
+    color: #D1FF46;
+    height: 30px;
+    font-size: 1.4rem;
+    margin-left: 15px;
+}
+
+.rellenos {
+    color: #D1FF46;
+    height: 30px;
+    font-size: 1.4rem;
+    margin-left: 15px;
+}
+
+.parrafoSabores {
+    color: #D1FF46;
+    height: 50px;
+    font-size: 1.4rem;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.sabores {
+    color: #D1FF46;
+    height: 30px;
+    font-size: 1.4rem;
+    margin-left: 25px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.otros {
+    color: #D1FF46;
+    height: 30px;
+    font-size: 1.4rem;
+    margin-left: 15px;
+}
+
+.grids {
+    display: grid;
+    grid-template-columns: repeat(2, 460px);
+    grid-template-rows: repeat(3, 300px);
+    row-gap: 50px;
+    column-gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagenProd {
+    width: 450px;
+    height: 340px;
+    object-fit: cover;
+}
+
+
+
+/*--- FOOTER ---*/
+
+footer {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #D1FF46;
+}
+
+@media screen and (max-width: 480px) {
+
+    .logo {
+        width: 70px;
+        height: 60px;
+    }
+
+    .titulo {
+        font-size: 2.7rem;
+        height: 130px;
+    }
+
+    .subtituloIndex {
+        height: 120px;
+        font-size: 1.8rem;
+    }
+
+    .parrafoIndex {
+        height: 370px;
+        font-size: 1.3rem;
+    }
+
+    .subtituloProducto {
+        height: 120px;
+        font-size: 2rem;
+    }
+
+    .parrafoMedallon {
+        font-size: 1.7rem;
+        height: 140px;
+    }
+
+    .productos{
+        height: 850px;
+    }
+
+    .rellenos {
+        font-size: 1.7rem;
+        height: 140px;
+    }
+
+    .containerSabores {
+        height: 300px;
+    }
+
+    .containerOtros{
+        height: 200px;
+
+    }
+
+    .otros{
+        height: 100px;
+        font-size: 1.7rem;
+    }
+
+    .grids{
+        display: grid;
+        grid-template-columns: repeat(1, 280px);
+        grid-template-rows: repeat(1, 280px);
+        height: 230vh;
+        row-gap: 5px;
+    }
+
+    .imagenProd{
+        width: 260px;
+        height: 200px;
+    }
+
+
+
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .titulo {
+        font-size: 3.7rem;
+    }
+
+    .subtituloIndex {
+        height: 120px;
+        font-size: 2.7rem;
+    }
+
+    .parrafoIndex {
+        height: 370px;
+        font-size: 1.8rem;
+    }
+
+    .subtituloProducto{
+        font-size: 2.2rem;
+    }
+
+    .productos{
+        height: 700px;
+    }
+
+    .parrafoMedallon{
+        height: 70px;
+    }
+    .rellenos{
+        height: 80px;
+    }
+
+    .otros{
+        height: 60px;
+    }
+
+    .grids{
+        display: grid;
+        grid-template-columns: repeat(2, 190px);
+        grid-template-rows: repeat(2, 190px);
+        align-items: center;
+        justify-content: center;
+        column-gap: 35px;
+    }
+
+    .imagenProd{
+        width: 220px;
+        height: 170px;
+    }
+}
