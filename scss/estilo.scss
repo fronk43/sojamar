@@ -42,13 +42,20 @@ body {
                             border: $colorTitulo solid;
                             padding: 8px;
 
+
+                        }
+
+                        .nav-link:hover {
+                            background-color: black;
+                            }
+
                         }
                     }
                 }
             }
         }
     }
-}
+
 
 //INDEX
 
