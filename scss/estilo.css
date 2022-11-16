@@ -303,7 +303,7 @@ footer {
   body main .seccion2 .subtituloHistoria2 {
     font-size: 1.8rem;
   }
-  body main section .titulo, body main section .conteinerTitulo .titulo, body main .conteinerTitulo section .titulo {
+  body main section .titulo {
     font-size: 2.7rem;
     height: 130px;
   }
@@ -344,7 +344,7 @@ footer {
     width: 90%;
     height: 30%;
   }
-  body main section .titulo, body main section .conteinerTitulo .titulo, body main .conteinerTitulo section .titulo {
+  body main section .titulo {
     font-size: 2.7rem;
     height: 130px;
   }
@@ -403,7 +403,7 @@ footer {
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  body main section .titulo, body main section .conteinerTitulo .titulo, body main .conteinerTitulo section .titulo {
+  body main section .titulo {
     font-size: 3.7rem;
   }
   body main section .subtituloPromociones {
@@ -469,7 +469,7 @@ footer {
   body main .seccion2 .subtituloHistoria2 {
     font-size: 1.8rem;
   }
-  body main section .titulo, body main section .conteinerTitulo .titulo, body main .conteinerTitulo section .titulo {
+  body main section .titulo {
     font-size: 2.7rem;
     height: 130px;
   }
