@@ -47,14 +47,14 @@ body {
 
                         .nav-link:hover {
                             background-color: black;
-                            }
-
                         }
+
                     }
                 }
             }
         }
     }
+}
 
 
 //INDEX
@@ -110,12 +110,7 @@ body {
         .conteinerTitulo {
 
             .titulo {
-                font-size: 6rem;
-                color: $colorTitulo;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 170px;
+                @extend .titulo;
             }
         }
 
@@ -183,12 +178,7 @@ body {
         section {
 
             .titulo {
-                font-size: 6rem;
-                color: $colorTitulo;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 170px;
+                @extend .titulo;
             }
         }
 
@@ -270,12 +260,7 @@ body {
         section {
 
             .titulo {
-                font-size: 6rem;
-                color: $colorTitulo;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 170px;
+                @extend .titulo;
             }
         }
 
@@ -373,12 +358,7 @@ body {
         section {
 
             .titulo {
-                font-size: 6rem;
-                color: $colorTitulo;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 170px;
+                @extend .titulo;
             }
         }
 

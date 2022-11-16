@@ -59,14 +59,6 @@ body main .subtituloParrafo .parrafoIndex {
   margin-right: 15px;
 }
 
-body main .conteinerTitulo .titulo {
-  font-size: 6rem;
-  color: #D1FF46;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 170px;
-}
 body main .seccionHistoria .subtituloHistoria {
   color: #D1FF46;
   font-size: 2.5rem;
@@ -111,14 +103,6 @@ body main .seccion2 .parrafoHistoria2 {
   height: 300%;
 }
 
-body main section .titulo {
-  font-size: 6rem;
-  color: #D1FF46;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 170px;
-}
 body main .subtituloProducto {
   color: #D1FF46;
   font-size: 2.5rem;
@@ -182,14 +166,6 @@ body main .imagenProd {
   width: 450px;
 }
 
-body main section .titulo {
-  font-size: 6rem;
-  color: #D1FF46;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 170px;
-}
 body main section .subtituloPromociones {
   color: #D1FF46;
   font-size: 2.5rem;
@@ -249,14 +225,6 @@ body main .grids .imagenProd {
   height: 100%;
 }
 
-body main section .titulo {
-  font-size: 6rem;
-  color: #D1FF46;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 170px;
-}
 body main section .subtituloContacto {
   color: #D1FF46;
   font-size: 2.5rem;
@@ -335,7 +303,7 @@ footer {
   body main .seccion2 .subtituloHistoria2 {
     font-size: 1.8rem;
   }
-  body main section .titulo {
+  body main section .titulo, body main section .conteinerTitulo .titulo, body main .conteinerTitulo section .titulo {
     font-size: 2.7rem;
     height: 130px;
   }
@@ -376,7 +344,7 @@ footer {
     width: 90%;
     height: 30%;
   }
-  body main section .titulo {
+  body main section .titulo, body main section .conteinerTitulo .titulo, body main .conteinerTitulo section .titulo {
     font-size: 2.7rem;
     height: 130px;
   }
@@ -435,7 +403,7 @@ footer {
   }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  body main section .titulo {
+  body main section .titulo, body main section .conteinerTitulo .titulo, body main .conteinerTitulo section .titulo {
     font-size: 3.7rem;
   }
   body main section .subtituloPromociones {
@@ -501,7 +469,7 @@ footer {
   body main .seccion2 .subtituloHistoria2 {
     font-size: 1.8rem;
   }
-  body main section .titulo {
+  body main section .titulo, body main section .conteinerTitulo .titulo, body main .conteinerTitulo section .titulo {
     font-size: 2.7rem;
     height: 130px;
   }
